@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg-favourites{
+  background-image: url(../assets/images/ZZZZ30.jpg);
+}
+#titulo{
+  font-family:'Comic Neue', 'cursive';
+  text-shadow: 0px 0px 6px white;
+  margin-left: 5em;
+}
+h2{
+  margin-bottom: 1em;
+}
+.mainFav{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+#listFavourites{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.listFav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cardCharacterFav{
+  width: 15em;
+  margin: 2em;
+}
+.cardCharacterFav h2{
+  text-align: center;
+  font-family:'Comic Neue', 'cursive';
+  text-shadow: 0px 0px 2px white;
+}
+.imgPosterFav{
+  width: 100%;
+  max-height: 14em;
+  min-height: 14em;
+  box-shadow: 2px 2px 5px black;
+  transition: width 2s, height 2s, transform 2s;
+}
+.imgPosterFav:hover {
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+}
+#imageBackFav{
+  width: 2em;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+#backFav{
+  display: flex;
+  align-items: center;
+  font-family:'Comic Neue', 'cursive';
+  text-decoration: none;
+  color: black;
+  text-shadow: 0px 0px 2px white;
+}
+.buttonRemove{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 2em;
+  padding: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font-family:'Comic Neue', 'cursive';
+  font-size: 1.3rem;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  background: rgba(22, 7, 241, 0.329);
+  box-shadow: 1px 1px 10px rgb(250, 15, 7);
+  border-color: transparent;
+}
+.buttonRemove:hover{
+  background-color: rgb(255, 0, 0);
+}
+.textStore{
+  font-family:'Comic Neue', 'cursive';
+  text-align: center;
+}
